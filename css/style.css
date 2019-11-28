@@ -4,9 +4,27 @@
 
 .col-6.container.debug > div {
   background-color: #F07F80;
+  border: 1px solid white;
+
+}
+
+col-6.container.debug > div > div {
+  padding: 2px;
+}
+
+body .col-6.container.debug {
   padding: 5px;
 }
 
+
+
+
+
 .col-6.container.debug > div > div {
   border: 1px solid white;
+}
+
+[class*="col-"] {
+  text-align: center;
+  line-height: 200px;
 }
