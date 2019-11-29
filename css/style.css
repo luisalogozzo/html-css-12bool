@@ -2,16 +2,16 @@
   background-color: pink;
 }
 
-body .col-6.container.debug {
+body .col-6.container {
   padding: 5px;
 }
 
-.col-6.container.debug > div {
+.col-6.container > div {
   background-color: #F07F80;
   border: 1px solid white;
 }
 
-.col-6.container.debug > div > div {
+.col-6.container > div > div {
   border: 1px solid white;
   height: 190px;
   padding: 5px;
